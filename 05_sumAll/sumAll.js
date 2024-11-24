@@ -20,6 +20,7 @@ const sumAll = function(first_integer, second_integer) {
     }
 
     const number_of_integers = Math.abs(second_integer - first_integer)-1;
+    
     if (first_integer <= second_integer) {
         integer_array.push(first_integer);
     } else {
